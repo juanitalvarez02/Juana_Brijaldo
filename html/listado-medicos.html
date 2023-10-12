@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado medicos</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Centro medico Backend</h1>
+    </header>
+    <main>
+        <h2>Listado medicos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Número de Cédula</th>
+                    <th>Consultorio</th>
+                    <th>Telefono</th>
+                    <th>Correo</th>
+                    <th>Especialidad</th>
+                    <th>Paciente</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpo-tabla-medicos">
+                <!-- Se agrega el contenido dinamicamente por medio de JS -->
+                <tr>
+                    <td>Liliana</td>
+                    <td>Herrera</td>
+                    <td>123456</td>
+                    <td>101</td>
+                    <td>32145697</td>
+                    <td>liliana@medico.com</td>
+                    <td>Medicina general</td>
+                    <td>José</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="../index.html"><input type="button" value="Volver"></a>
+    </main>
+    <footer>
+        <h2>Realizado por:</h2>
+        <p>Grupo 1 desarrollo web backend</p>
+    </footer>
+    <script src="../app.js"></script>
+</body>
+</html>
